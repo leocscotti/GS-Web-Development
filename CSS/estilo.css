@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.menu {
+    width: 200px;
+    background-color: blue;
+    height: 100%;
+    position: fixed;
+}
+
+.menu h1 {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li a {
+    display: block;
+    color: aliceblue;
+    padding: 8px 16px;
+    text-decoration: none;
+
+}
+
+.menu li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.conteudo {
+    margin-left: 200px;
+    padding: 16px;
+}
