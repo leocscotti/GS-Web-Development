@@ -1,27 +1,78 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: rgb(245, 238, 181);
+* {
+    padding: 0px;
+    margin: 0px;
 }
 
-header {
-    justify-content: center;
-    align-items: center;
+body {
+    background-color: rgb(143, 238, 241);
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
+    display: flex;
     justify-content: center;
 }
 
-.integrantes {
-    display: flex;
-    float: inline-end;
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style: none;
+}
+
+#img-menu {
+    width: 40px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+nav {
+    /* background-color: rgba(16, 16, 16, .5); */
+    width: 350px;
+    height: 100%;
+    left: -350px;
+    position: absolute;
+    transition: all .5s;
+}
+
+input[type="checkbox"]:checked ~ nav {
+    transform: translateX(350px);
+}
+
+ul {
+    top: 60px;
+    position: absolute;
+    width: 60%;
+}
+
+a {
+    background-color: rgb(19, 43, 33);
+    display: block;
+    padding: 20px 5px;
+    color: white;
+}
+
+a:hover {
+    background-color: rgb(176, 224, 230);
+    color: black
+}
+
+label {
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
 }
 
 
-.menu {
+
+
+/* .menu {
     width: 200px;
-    background-color: rgb(0, 139, 7);
+    background-color: rgb(118, 121, 255);
     height: 100%;
     position: fixed;
     border-radius: 20px;
@@ -43,15 +94,27 @@ h1 {
 .menu li a:hover {
     background-color: black;
     color: white;
-}
+} */
 
 .conteudo {
-    margin-left: 200px;
     padding: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-.imagens {
+/* .imagens {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    justify-content: center;
+} */
+
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+    background-color: rgb(255, 255, 255);
 }
