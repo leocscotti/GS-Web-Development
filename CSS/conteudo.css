@@ -1,4 +1,5 @@
-.conteudo {
+.conteudo,
+h1 {
     padding: 16px;
     display: flex;
     flex-direction: column;
@@ -6,25 +7,27 @@
     align-items: center;
 }
 
-img, h2, p {
-    margin-top: 1em;
+img,
+h3,
+p {
+    margin-top: 2em;
 }
 
-.descricaoimg{
+.descricaoimg {
     margin-top: 1em;
-    margin-left: 310px ;
+    margin-left: 310px;
     margin-right: 310px;
     text-align: center;
 }
 
-.txtinicio{
+.txtinicio {
     margin-top: 4em;
     margin-left: 200px;
     margin-right: 200px;
 }
 
-.titulogs{
-    margin-top: 0,8em;
+.titulogs {
+    margin-top: 0, 8em;
     font-size: 45px;
     font-style: oblique;
     font-family: Georgia, 'Times New Roman', Times, serif;
