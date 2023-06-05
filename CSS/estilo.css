@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
-@import url(./conteudo.css);
-@import url(./menu.css);
-@import url(./rodape.css);
+@import url(../CSS/conteudo.css);
+@import url(../CSS/menu.css);
+@import url(../CSS/rodape.css);
 
 * {
     padding: 0px;
@@ -10,11 +10,9 @@
 
 body {
     background-image: linear-gradient(to right, rgb(191, 219, 255), rgb(170, 253, 202));
-    font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
+/* h1 {
     display: flex;
     justify-content: center;
-}
-
+} */
