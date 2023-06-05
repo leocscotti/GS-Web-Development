@@ -77,11 +77,18 @@ body {
       text-align: center;
   }
 
-.rodape {
+  .rodape {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 20vh;
-    background-color: rgb(255, 255, 255);
-    flex-direction: column;
+    background-color: rgb(214, 250, 233);
+    flex-direction: row;
+}
+
+.rodape p {
+    flex-grow: 2;
+    flex-basis: 100px;
+    text-align: center;
+    font-size: 12px;
 }
